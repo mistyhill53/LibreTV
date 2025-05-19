@@ -21,91 +21,74 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    ckzy: {
-        api: 'https://www.ckzy1.com',
-        name: 'CK资源',
-        adult: true
+        ckzy: {
+        api: 'https://www.ckzy1.com/api.php/provide/vod',
+        name: 'CK资源'
     },
     jkun: {
-        api: 'https://jkunzyapi.com',
-        name: 'jkun资源',
-        adult: true
+        api: 'https://jkunzyapi.com/api.php/provide/vod',
+        name: 'jkun资源'
     },
     bwzy: {
-        api: 'https://api.bwzym3u8.com',
-        name: '百万资源',
-        adult: true
+        api: 'https://api.bwzym3u8.com/api.php/provide/vod',
+        name: '百万资源'
     },
     souav: {
-        api: 'https://api.souavzy.vip',
-        name: 'souav资源',
-        adult: true
+        api: 'https://api.souavzy.vip/api.php/provide/vod',
+        name: 'souav资源'
     },
     r155: {
-        api: 'https://155api.com',
-        name: '155资源',
-        adult: true
+        api: 'https://155api.com/api.php/provide/vod',
+        name: '155资源'
     },
     lsb: {
-        api: 'https://apilsbzy1.com',
-        name: 'lsb资源',
-        adult: true
+        api: 'https://apilsbzy1.com/api.php/provide/vod',
+        name: 'lsb资源'
     },
     huangcang: {
-        api: 'https://hsckzy.vip',
+        api: 'https://hsckzy.vip/api.php/provide/vod',
         name: '黄色仓库',
-        detail: 'https://hsckzy.vip',
-        adult: true
+        detail: 'https://hsckzy.vip'
     },
     yutu: {
-        api: 'https://yutuzy10.com',
-        name: '玉兔资源',
-        adult: true
+        api: 'https://yutuzy10.com/api.php/provide/vod',
+        name: '玉兔资源'
     },
     xingba: {
-        api: 'https://xingba111.com',
-        name: '杏吧资源',
-        adult: true
+        api: 'https://xingba111.com/api.php/provide/vod',
+        name: '杏吧资源'
     },
     xiaojizy: {
-        api: 'https://api.xiaojizy.live',
-        name: '小鸡资源',
-        adult: true
+        api: 'https://api.xiaojizy.live/api.php/provide/vod',
+        name: '小鸡资源'
     },
     jipinzyapi: {
-        api: 'https://jipinzyapi.com',
-        name: '极品X资源',
-        adult: true
+        api: 'https://jipinzyapi.com/api.php/provide/vod',
+        name: '极品X资源'
     },
     siwazyw: {
-        api: 'https://siwazyw.tv',
-        name: '丝袜资源',
-        adult: true
+        api: 'https://siwazyw.tv/api.php/provide/vod',
+        name: '丝袜资源'
     },
     semaozy: {
-        api: 'https://caiji.semaozy.net',
-        name: '色猫资源',
-        adult: true
+        api: 'https://caiji.semaozy.net/api.php/provide/vod',
+        name: '色猫资源'
     },
     ekanapi: {
-        api: 'https://api.ekanapi.com',
-        name: '易看资源',
-        adult: true
+        api: 'https://api.ekanapi.com/api.php/provide/vod',
+        name: '易看资源'
     },
     naixxzy: {
-        api: 'https://naixxzy.com',
-        name: '奶香香资源',
-        adult: true
+        api: 'https://naixxzy.com/api.php/provide/vod',
+        name: '奶香香资源'
     },
     apilj: {
-        api: 'https://apilj.com',
-        name: '辣椒资源',
-        adult: true
+        api: 'https://apilj.com/api.php/provide/vod',
+        name: '辣椒资源'
     },
     dadiapi: {
-        api: 'https://dadiapi.com',
-        name: '大地资源',
-        adult: true
+        api: 'https://dadiapi.com/api.php/provide/vod',
+        name: '大地资源'
     },
 };
 
