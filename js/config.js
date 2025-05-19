@@ -23,72 +23,89 @@ const SITE_CONFIG = {
 const API_SITES = {
     ckzy: {
         api: 'https://www.ckzy1.com',
-        name: 'CK资源'
+        name: 'CK资源',
+        adult: true
     },
     jkun: {
         api: 'https://jkunzyapi.com',
-        name: 'jkun资源'
+        name: 'jkun资源',
+        adult: true
     },
     bwzy: {
         api: 'https://api.bwzym3u8.com',
-        name: '百万资源'
+        name: '百万资源',
+        adult: true
     },
     souav: {
         api: 'https://api.souavzy.vip',
-        name: 'souav资源'
+        name: 'souav资源',
+        adult: true
     },
     r155: {
         api: 'https://155api.com',
-        name: '155资源'
+        name: '155资源',
+        adult: true
     },
     lsb: {
         api: 'https://apilsbzy1.com',
-        name: 'lsb资源'
+        name: 'lsb资源',
+        adult: true
     },
     huangcang: {
         api: 'https://hsckzy.vip',
         name: '黄色仓库',
-        detail: 'https://hsckzy.vip'
+        detail: 'https://hsckzy.vip',
+        adult: true
     },
     yutu: {
         api: 'https://yutuzy10.com',
-        name: '玉兔资源'
+        name: '玉兔资源',
+        adult: true
     },
     xingba: {
         api: 'https://xingba111.com',
-        name: '杏吧资源'
+        name: '杏吧资源',
+        adult: true
     },
     xiaojizy: {
         api: 'https://api.xiaojizy.live',
-        name: '小鸡资源'
+        name: '小鸡资源',
+        adult: true
     },
     jipinzyapi: {
         api: 'https://jipinzyapi.com',
-        name: '极品X资源'
+        name: '极品X资源',
+        adult: true
     },
     siwazyw: {
         api: 'https://siwazyw.tv',
-        name: '丝袜资源'
+        name: '丝袜资源',
+        adult: true
     },
     semaozy: {
         api: 'https://caiji.semaozy.net',
-        name: '色猫资源'
+        name: '色猫资源',
+        adult: true
     },
     ekanapi: {
         api: 'https://api.ekanapi.com',
-        name: '易看资源'
+        name: '易看资源',
+        adult: true
     },
     naixxzy: {
         api: 'https://naixxzy.com',
-        name: '奶香香资源'
+        name: '奶香香资源',
+        adult: true
     },
     apilj: {
         api: 'https://apilj.com',
-        name: '辣椒资源'
+        name: '辣椒资源',
+        adult: true
     },
     dadiapi: {
         api: 'https://dadiapi.com',
-        name: '大地资源'
+        name: '大地资源',
+        adult: true
     },
 };
 
