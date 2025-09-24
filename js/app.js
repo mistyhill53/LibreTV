@@ -1,6 +1,6 @@
 // 全局变量
 const keys = Object.keys(API_SITES)
-console.log('keys',keys)
+console.log('keys', keys)
 let selectedAPIs = JSON.parse(localStorage.getItem('selectedAPIs') || keys) // 默认选中资源
 let customAPIs = JSON.parse(localStorage.getItem('customAPIs') || '[]') // 存储自定义API列表
 
@@ -1535,15 +1535,6 @@ function saveStringAsFile(content, fileName) {
 	// 清理临时对象
 	document.body.removeChild(a)
 	window.URL.revokeObjectURL(url)
-}
-
-// app.js 或路由文件中
-const authMiddleware = require('./middleware/auth')
-const config = require('./config')
-
-// 对所有请求启用鉴权（按需调整作用范围）
-if (config.auth.enabled) {
-	app.use(authMiddleware)
 }
 
 // 或者针对特定路由
