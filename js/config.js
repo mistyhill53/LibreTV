@@ -21,182 +21,182 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-  "黄色资源啊啊": {
+  huangseresourceaaa: {
     api: "https://hsckzy888.com/api.php/provide/vod",
     name: "AV-黄色资源啊啊",
     adult: true,
   },
-  "百万资源": {
+  baiwanziyuan: {
     api: "https://api.bwzyz.com/api.php/provide/vod",
     name: "AV-百万资源",
     adult: true,
   },
-  "souav资源": {
+  souavziyuan: {
     api: "https://api.souavzy.vip/api.php/provide/vod",
     name: "AV-souav资源",
     adult: true,
   },
-  "奥斯卡资源": {
+  aosikazi: {
     api: "https://aosikazy.com/api.php/provide/vod",
     name: "AV-奥斯卡资源",
     adult: true,
   },
-  "淫水机资源": {
+  yinshuiji: {
     api: "https://www.xrbsp.com/api/json.php",
     name: "AV-淫水机资源",
     adult: true,
   },
-  "玉兔资源": {
+  yutuziyuan: {
     api: "https://apiyutu.com/api.php/provide/vod",
     name: "AV-玉兔资源",
     adult: true,
   },
-  "白嫖资源": {
+  baipiaoziyuan: {
     api: "https://www.kxgav.com/api/json.php",
     name: "AV-白嫖资源",
     adult: true,
   },
-  "美少女资源": {
+  meishaonvziyuan: {
     api: "https://www.msnii.com/api/json.php",
     name: "AV-美少女资源",
     adult: true,
   },
-  "老色逼资源": {
+  laosebizi: {
     api: "https://apilsbzy1.com/api.php/provide/vod",
     name: "AV-老色逼资源",
     adult: true,
   },
-  "色嗨国": {
+  sehaiguo: {
     api: "https://api.sexnguon.com/api.php/provide/vod",
     name: "AV-色嗨国",
     adult: true,
   },
-  "小鸡资源": {
+  xiaoji: {
     api: "https://api.xiaojizy.live/provide/vod",
     name: "AV-小鸡资源",
     adult: true,
   },
-  "色猫资源": {
+  semao: {
     api: "https://api.maozyapi.com/inc/apijson_vod.php",
     name: "AV-色猫资源",
     adult: true,
   },
-  "香奶儿资源": {
+  xiangnaier: {
     api: "https://www.gdlsp.com/api/json.php",
     name: "AV-香奶儿资源",
     adult: true,
   },
-  "鲨鱼资源": {
+  shayu: {
     api: "https://shayuapi.com/api.php/provide/vod",
     name: "AV-鲨鱼资源",
     adult: true,
   },
-  "黄AV资源": {
+  huangav: {
     api: "https://www.pgxdy.com/api/json.php",
     name: "AV-黄AV资源",
     adult: true,
   },
-  "X细胞资源": {
+  xibao: {
     api: "https://www.xxibaozyw.com/api.php/provide/vod",
     name: "AV-X细胞资源",
     adult: true,
   },
-  "番茄资源": {
+  fanqie: {
     api: "https://fqzy.me/api.php/provide/vod",
     name: "AV-番茄资源",
     adult: true,
   },
-  "jkun资源": {
+  jkun: {
     api: "https://jkunzyapi.com/api.php/provide/vod",
     name: "AV-jkun资源",
     adult: true,
   },
-  "百万资源2": {
+  baiwanziyuan2: {
     api: "https://api.bwzym3u8.com/api.php/provide/vod",
     name: "AV-百万资源",
     adult: true,
   },
-  "155资源": {
+  yiwuwuwu: {
     api: "https://155api.com/api.php/provide/vod",
     name: "AV-155资源",
     adult: true,
   },
-  "lsb资源": {
+  lsb: {
     api: "https://apilsbzy1.com/api.php/provide/vod",
     name: "AV-lsb资源",
     adult: true,
   },
-  "黄色仓库": {
+  huangcangku: {
     api: "https://hsckzy.vip/api.php/provide/vod",
     name: "AV-黄色仓库",
     adult: true,
   },
-  "玉兔资源2": {
+  yutuziyuan2: {
     api: "https://yutuzy10.com/api.php/provide/vod",
     name: "AV-玉兔资源",
     adult: true,
   },
-  "杏吧资源": {
+  xingba: {
     api: "https://xingba111.com/api.php/provide/vod",
     name: "AV-杏吧资源",
     adult: true,
   },
-  "丝袜资源": {
+  siwa: {
     api: "https://siwazyw.tv/api.php/provide/vod",
     name: "AV-丝袜资源",
     adult: true,
   },
-  "奶香资源": {
+  naixiang: {
     api: "https://naixxzy.com/api.php/provide/vod",
     name: "AV-奶香资源",
     adult: true,
   },
-  "辣椒资源": {
+  lajiao: {
     api: "https://apilj.com/api.php/provide/vod",
     name: "AV-辣椒资源",
     adult: true,
   },
-  "番号资源": {
+  fanhao: {
     api: "http://fhapi9.com/api.php/provide/vod",
     name: "AV-番号资源",
     adult: true,
   },
-  "AIvin资源": {
+  aivin: {
     api: "http://lbapiby.com/api.php/provide/vod",
     name: "AV-AIvin资源",
     adult: true,
   },
-  "精东资源": {
+  jingdong: {
     api: "http://chujia.cc/api.php/provide/vod",
     name: "AV-精东资源",
     adult: true,
   },
-  "乐播资源": {
+  lebo: {
     api: "https://lbapi9.com/api.php/provide/vod",
     name: "AV-乐播资源",
     adult: true,
   },
-  "91麻豆": {
+  jiuyimaodou: {
     api: "https://91md.me/api.php/provide/vod",
     name: "AV-91麻豆",
     adult: true,
   },
-  "精品资源": {
+  jingpin: {
     api: "https://www.jingpinx.com/api.php/provide/vod",
     name: "AV-精品资源",
     adult: true,
   },
-  "森林资源": {
+  senlin: {
     api: "http://slapibf.com/api.php/provide/vod",
     name: "AV-森林资源",
     adult: true,
   },
-  "大地资源网络": {
+  dadi: {
     api: "https://dadiapi.com/api.php/provide/vod",
     name: "AV-大地资源网络",
     adult: true,
   },
-  "滴滴资源": {
+  didi: {
     api: "https://api.ddapi.cc/api.php/provide/vod",
     name: "AV-滴滴资源",
     adult: true,
