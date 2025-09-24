@@ -59,8 +59,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	// 设置事件监听器
 	setupEventListeners()
 
-	// 初始检查成人API选中状态
-	setTimeout(checkAdultAPIsSelected, 100)
 })
 
 // 初始化API复选框
@@ -98,7 +96,6 @@ function initAPICheckboxes() {
 		// 添加事件监听器
 		checkbox.querySelector('input').addEventListener('change', function () {
 			updateSelectedAPIs()
-			checkAdultAPIsSelected()
 		})
 	})
 	container.appendChild(normaldiv)
@@ -106,8 +103,6 @@ function initAPICheckboxes() {
 	// 添加成人API列表
 	addAdultAPI()
 
-	// 初始检查成人内容状态
-	checkAdultAPIsSelected()
 }
 
 // 添加成人API列表
@@ -150,7 +145,6 @@ function addAdultAPI() {
 			// 添加事件监听器
 			checkbox.querySelector('input').addEventListener('change', function () {
 				updateSelectedAPIs()
-				checkAdultAPIsSelected()
 			})
 		})
 		container.appendChild(adultdiv)
@@ -248,7 +242,6 @@ function renderCustomAPIsList() {
 		container.appendChild(apiItem)
 		apiItem.querySelector('input').addEventListener('change', function () {
 			updateSelectedAPIs()
-			checkAdultAPIsSelected()
 		})
 	})
 }
@@ -297,7 +290,6 @@ function updateCustomApi(index) {
 	customAPIs[index] = { name, url, detail, isAdult }
 	localStorage.setItem('customAPIs', JSON.stringify(customAPIs))
 	renderCustomAPIsList()
-	checkAdultAPIsSelected()
 	restoreAddCustomApiButtons()
 	nameInput.value = ''
 	urlInput.value = ''
@@ -378,7 +370,6 @@ function selectAllAPIs(selectAll = true, excludeAdult = false, onlyAdult = false
 	})
 
 	updateSelectedAPIs()
-	checkAdultAPIsSelected()
 }
 
 // 显示添加自定义API表单
@@ -436,7 +427,6 @@ function addCustomApi() {
 	// 重新渲染自定义API列表
 	renderCustomAPIsList()
 	updateSelectedApiCount()
-	checkAdultAPIsSelected()
 	nameInput.value = ''
 	urlInput.value = ''
 	if (detailInput) detailInput.value = ''
@@ -478,8 +468,6 @@ function removeCustomApi(index) {
 	// 更新选中的API数量
 	updateSelectedApiCount()
 
-	// 重新检查成人API选中状态
-	checkAdultAPIsSelected()
 
 	showToast('已移除自定义API: ' + apiName, 'info')
 }
