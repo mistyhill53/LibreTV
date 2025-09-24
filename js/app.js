@@ -1536,6 +1536,3 @@ function saveStringAsFile(content, fileName) {
 	document.body.removeChild(a)
 	window.URL.revokeObjectURL(url)
 }
-
-// 或者针对特定路由
-app.use('/api', authMiddleware)
