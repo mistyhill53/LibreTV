@@ -12,7 +12,7 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'LibreAV',
+    name: 'WatchAV',
     url: 'https://av.666986.xyz',
     description: '免费在线视频搜索与观看平台',
     logo: './image/retrotv_5520.png',
