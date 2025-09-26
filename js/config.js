@@ -21,186 +21,170 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-  huangseresourceaaa: {
-    api: "https://hsckzy888.com/api.php/provide/vod",
-    name: "AV-黄色资源啊啊",
-    adult: false,
+  "hsckzy888": {
+    "api": "https://hsckzy888.com/api.php/provide/vod",
+    "name": "AV-黄色资源啊啊"
   },
-  baiwanziyuan: {
-    api: "https://api.bwzyz.com/api.php/provide/vod",
-    name: "AV-百万资源",
-    adult: false,
+  "bwzyz": {
+    "api": "https://api.bwzyz.com/api.php/provide/vod",
+    "name": "AV-百万资源"
   },
-  souavziyuan: {
-    api: "https://api.souavzy.vip/api.php/provide/vod",
-    name: "AV-souav资源",
-    adult: false,
+  "souavzy": {
+    "api": "https://api.souavzy.vip/api.php/provide/vod",
+    "name": "AV-souav资源"
   },
-  aosikazi: {
-    api: "https://aosikazy.com/api.php/provide/vod",
-    name: "AV-奥斯卡资源",
-    adult: false,
+  "aosikazy": {
+    "api": "https://aosikazy.com/api.php/provide/vod",
+    "name": "AV-奥斯卡资源"
   },
-  yinshuiji: {
-    api: "https://www.xrbsp.com/api/json.php",
-    name: "AV-淫水机资源",
-    adult: false,
+  "xrbsp": {
+    "api": "https://www.xrbsp.com/api/json.php",
+    "name": "AV-淫水机资源"
   },
-  yutuziyuan: {
-    api: "https://apiyutu.com/api.php/provide/vod",
-    name: "AV-玉兔资源",
-    adult: false,
+  "apiyutu": {
+    "api": "https://apiyutu.com/api.php/provide/vod",
+    "name": "AV-玉兔资源"
   },
-  baipiaoziyuan: {
-    api: "https://www.kxgav.com/api/json.php",
-    name: "AV-白嫖资源",
-    adult: false,
+  "kxgav": {
+    "api": "https://www.kxgav.com/api/json.php",
+    "name": "AV-白嫖资源"
   },
-  meishaonvziyuan: {
-    api: "https://www.msnii.com/api/json.php",
-    name: "AV-美少女资源",
-    adult: false,
+  "msnii": {
+    "api": "https://www.msnii.com/api/json.php",
+    "name": "AV-美少女资源"
   },
-  laosebizi: {
-    api: "https://apilsbzy1.com/api.php/provide/vod",
-    name: "AV-老色逼资源",
-    adult: false,
+  "apilsbzy1": {
+    "api": "https://apilsbzy1.com/api.php/provide/vod",
+    "name": "AV-老色逼资源"
   },
-  sehaiguo: {
-    api: "https://api.sexnguon.com/api.php/provide/vod",
-    name: "AV-色嗨国",
-    adult: false,
+  "sexnguon": {
+    "api": "https://api.sexnguon.com/api.php/provide/vod",
+    "name": "AV-色嗨国"
   },
-  xiaoji: {
-    api: "https://api.xiaojizy.live/provide/vod",
-    name: "AV-小鸡资源",
-    adult: false,
+  "xiaojizy": {
+    "api": "https://api.xiaojizy.live/provide/vod",
+    "name": "AV-小鸡资源"
   },
-  semao: {
-    api: "https://api.maozyapi.com/inc/apijson_vod.php",
-    name: "AV-色猫资源",
-    adult: false,
+  "gdlsp": {
+    "api": "https://www.gdlsp.com/api/json.php",
+    "name": "AV-香奶儿资源"
   },
-  xiangnaier: {
-    api: "https://www.gdlsp.com/api/json.php",
-    name: "AV-香奶儿资源",
-    adult: false,
+  "shayuapi": {
+    "api": "https://shayuapi.com/api.php/provide/vod",
+    "name": "AV-鲨鱼资源"
   },
-  shayu: {
-    api: "https://shayuapi.com/api.php/provide/vod",
-    name: "AV-鲨鱼资源",
-    adult: false,
+  "pgxdy": {
+    "api": "https://www.pgxdy.com/api/json.php",
+    "name": "AV-黄AV资源"
   },
-  huangav: {
-    api: "https://www.pgxdy.com/api/json.php",
-    name: "AV-黄AV资源",
-    adult: false,
+  "xxibaozyw": {
+    "api": "https://www.xxibaozyw.com/api.php/provide/vod",
+    "name": "AV-X细胞资源"
   },
-  xibao: {
-    api: "https://www.xxibaozyw.com/api.php/provide/vod",
-    name: "AV-X细胞资源",
-    adult: false,
+  "fqzy": {
+    "api": "https://fqzy.me/api.php/provide/vod",
+    "name": "AV-番茄资源"
   },
-  fanqie: {
-    api: "https://fqzy.me/api.php/provide/vod",
-    name: "AV-番茄资源",
-    adult: false,
+  "jkun": {
+    "api": "https://jkunzyapi.com/api.php/provide/vod",
+    "name": "AV-jkun资源"
   },
-  jkun: {
-    api: "https://jkunzyapi.com/api.php/provide/vod",
-    name: "AV-jkun资源",
-    adult: false,
+  "bwzy": {
+    "api": "https://api.bwzym3u8.com/api.php/provide/vod",
+    "name": "AV-百万资源"
   },
-  baiwanziyuan2: {
-    api: "https://api.bwzym3u8.com/api.php/provide/vod",
-    name: "AV-百万资源",
-    adult: false,
+  "r155": {
+    "api": "https://155api.com/api.php/provide/vod",
+    "name": "AV-155资源"
   },
-  yiwuwuwu: {
-    api: "https://155api.com/api.php/provide/vod",
-    name: "AV-155资源",
-    adult: false,
+  "lsb": {
+    "api": "https://apilsbzy1.com/api.php/provide/vod",
+    "name": "AV-lsb资源"
   },
-  lsb: {
-    api: "https://apilsbzy1.com/api.php/provide/vod",
-    name: "AV-lsb资源",
-    adult: false,
+  "huangcang": {
+    "api": "https://hsckzy.vip/api.php/provide/vod",
+    "name": "AV-黄色仓库"
   },
-  huangcangku: {
-    api: "https://hsckzy.vip/api.php/provide/vod",
-    name: "AV-黄色仓库",
-    adult: false,
+  "yutu": {
+    "api": "https://yutuzy10.com/api.php/provide/vod",
+    "name": "AV-玉兔资源"
   },
-  yutuziyuan2: {
-    api: "https://yutuzy10.com/api.php/provide/vod",
-    name: "AV-玉兔资源",
-    adult: false,
+  "xingba": {
+    "api": "https://xingba111.com/api.php/provide/vod",
+    "name": "AV-杏吧资源"
   },
-  xingba: {
-    api: "https://xingba111.com/api.php/provide/vod",
-    name: "AV-杏吧资源",
-    adult: false,
+  "siwazyw": {
+    "api": "https://siwazyw.tv/api.php/provide/vod",
+    "name": "AV-丝袜资源"
   },
-  siwa: {
-    api: "https://siwazyw.tv/api.php/provide/vod",
-    name: "AV-丝袜资源",
-    adult: false,
+  "naixxzy": {
+    "api": "https://naixxzy.com/api.php/provide/vod",
+    "name": "AV-奶香资源"
   },
-  naixiang: {
-    api: "https://naixxzy.com/api.php/provide/vod",
-    name: "AV-奶香资源",
-    adult: false,
+  "apilj": {
+    "api": "https://apilj.com/api.php/provide/vod",
+    "name": "AV-辣椒资源"
   },
-  lajiao: {
-    api: "https://apilj.com/api.php/provide/vod",
-    name: "AV-辣椒资源",
-    adult: false,
+  "fhapi9": {
+    "api": "http://fhapi9.com/api.php/provide/vod",
+    "name": "AV-番号资源"
   },
-  fanhao: {
-    api: "http://fhapi9.com/api.php/provide/vod",
-    name: "AV-番号资源",
-    adult: false,
+  "lbapiby": {
+    "api": "http://lbapiby.com/api.php/provide/vod",
+    "name": "AV-AIvin资源"
   },
-  aivin: {
-    api: "http://lbapiby.com/api.php/provide/vod",
-    name: "AV-AIvin资源",
-    adult: false,
+  "chujia": {
+    "api": "http://chujia.cc/api.php/provide/vod",
+    "name": "AV-精东资源"
   },
-  jingdong: {
-    api: "http://chujia.cc/api.php/provide/vod",
-    name: "AV-精东资源",
-    adult: false,
+  "lbapi9": {
+    "api": "https://lbapi9.com/api.php/provide/vod",
+    "name": "AV-乐播资源"
   },
-  lebo: {
-    api: "https://lbapi9.com/api.php/provide/vod",
-    name: "AV-乐播资源",
-    adult: false,
+  "91md": {
+    "api": "https://91md.me/api.php/provide/vod",
+    "name": "AV-91麻豆"
   },
-  jiuyimaodou: {
-    api: "https://91md.me/api.php/provide/vod",
-    name: "AV-91麻豆",
-    adult: false,
+  "jingpinx": {
+    "api": "https://www.jingpinx.com/api.php/provide/vod",
+    "name": "AV-精品资源"
   },
-  jingpin: {
-    api: "https://www.jingpinx.com/api.php/provide/vod",
-    name: "AV-精品资源",
-    adult: false,
+  "slapibf": {
+    "api": "http://slapibf.com/api.php/provide/vod",
+    "name": "AV-森林资源"
   },
-  senlin: {
-    api: "http://slapibf.com/api.php/provide/vod",
-    name: "AV-森林资源",
-    adult: false,
+  "dadiapi": {
+    "api": "https://dadiapi.com/api.php/provide/vod",
+    "name": "AV-大地资源网络"
   },
-  dadi: {
-    api: "https://dadiapi.com/api.php/provide/vod",
-    name: "AV-大地资源网络",
-    adult: false,
+  "ddapi": {
+    "api": "https://api.ddapi.cc/api.php/provide/vod",
+    "name": "AV-滴滴资源"
   },
-  didi: {
-    api: "https://api.ddapi.cc/api.php/provide/vod",
-    name: "AV-滴滴资源",
-    adult: false,
+  "vnzyz": {
+    "api": "https://vnzyz.com/api.php/provide/vod",
+    "name": "AV-越南资源"
   },
+  "avre06": {
+    "api": "https://www.avre06.com/api.php/provide/vod",
+    "name": "AV-黄瓜资源"
+  },
+  "jkunzy": {
+    "api": "https://jkunzyapi.com/api.php/provide/vod/",
+    "name": "AV-鸡坤资源"
+  },
+  "xxavs": {
+    "api": "https://xxavs.com/api.php/provide/vod/",
+    "name": "AV-湿乐园资源"
+  },
+  "fqzy4": {
+    "api": "http://fqzy4.me/api.php/provide/vod/at/xml",
+    "name": "AV-番茄资源"
+  },
+  "bhziyuan": {
+    "api": "https://bhziyuan.com/api.php/provide/vod/at/xml",
+    "name": "AV-百花资源"
+  }
 };
 
 // 添加聚合搜索的配置选项
